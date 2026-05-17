@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project outputs
+results/metrics.csv
+results/outputs.json
+results/summary.csv
+results/plots/*.png
+
+# Environment
+.env
+.env.local
+
+# Jupyter
+.ipynb_checkpoints/
